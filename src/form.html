@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+    <link rel="stylesheet" href="styleform.css">
+    
+    <title>Form</title>
+</head>
+<body>
+
+<header>
+    <div class="contenedor" id="contenedor">
+        <section class="card" id="card">
+            <div class="img-card">
+                <img src="images/card.png" alt="Credit Card">
+            </div>
+        </section>
+</header>
+
+<main>
+        <form action="" class="form-card" id="form-card">
+            <div class="data">
+                <label for="input-number">Número de tarjeta</label>
+                    <input type="text" class="input-number" maxlength="16" autocomplete="off">
+            </div>
+
+            <div class="datos">
+                <label for="input-name">Nombre y apellido</label>
+                    <input type="text" class="input-name" autocomplete="off">
+            </div>
+
+            <div class="flexbox">
+				<div class="exp-date">
+					<label for="month">Fecha de expiración</label>
+					<div class="flexbox">
+						<div class="select-group">
+							<select name="month" id="month">
+								<option disabled selected>Mes</option>
+							</select>
+						</div>
+						<div class="select-group">
+							<select name="year" id="year">
+								<option disabled selected>Año</option>
+                            </select>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="code">
+					<label for="input-code">Código de seguridad</label>
+					<input type="text" id="input-code" maxlength="3">
+                </div>
+            </div>
+</main>
+
+            <div class="terminos">
+                    <input type="checkbox" class="terminos"><p>Aceptar <a style="color:blue;" href="#">Términos y Condiciones</a></p><br/>
+            </div>
+
+            <div>
+            <button type="submit" class="btn-validar" id="validar">Validar</button>
+            </div>
+            
+            <div>
+            <button type="submit" class="btn-home" id="home">Home</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
