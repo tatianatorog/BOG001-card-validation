@@ -8,6 +8,8 @@ body {
     background: url("images/coverform.jpg");
     background-size: cover;
     background-attachment: fixed;
+    width: 50%;
+    height: 50%;
     }
 
 .contenedor {
@@ -92,6 +94,7 @@ body {
 	padding: 5px 15px;
     border-radius: 20px;
     cursor: pointer;
+    margin-top: 120px;
 }
 
 .form-card .btn-validar:hover {
@@ -112,4 +115,11 @@ body {
     background: yellow;
 }
 
+.terminos {
+    width: 20px;
+    height: 20px;
+}
 
+.terminos p {
+    width: 300px;
+}
