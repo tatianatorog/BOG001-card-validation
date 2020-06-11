@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
 
     <link rel="stylesheet" href="styleform.css">
-    
+
     <title>Form</title>
 </head>
+
 <body>
+    <div id="menu">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Clases</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
-    <div class="contenedor" id="contenedor">
+    <div class="contenedor" id="contenedor" display="block">
         <section class="card" id="card">
             <div class="img-card">
                 <img src="images/card.png" alt="Credit Card">
@@ -20,59 +34,65 @@
         </section>
 
 
-
-        <form action="" class="form-card" id="form-card">
-            <div class="data">
-                <label for="input-number">Número de tarjeta</label>
-                    <input type="text" class="input-number" maxlength="16" autocomplete="off">
-            </div>
-
-            <div class="datos">
-                <label for="input-name">Nombre y apellido</label>
-                    <input type="text" class="input-name" autocomplete="off">
-            </div>
-
-            <div class="flexbox">
-				<div class="exp-date">
-					<label for="month">Fecha de expiración</label>
-					<div class="flexbox">
-						<div class="select-group">
-							<select name="month" id="month">
-								<option disabled selected>Mes</option>
-							</select>
-						</div>
-						<div class="select-group">
-							<select name="year" id="year">
-								<option disabled selected>Año</option>
-                            </select>
-							
-						</div>
-					</div>
-				</div>
-
-				<div class="code">
-					<label for="input-code">Código de seguridad</label>
-					<input type="text" id="input-code" maxlength="3">
+        <div id="userData">
+            <form action="" class="form-card" id="form-card">
+                <div class="data">
+                    <label for="input-number">Número de tarjeta</label>
+                    <input type="text" class="input-number" id="creditCard" maxlength="16" autocomplete="off">
                 </div>
-            </div>
 
+                <div class="datos">
+                    <label for="input-name">Nombre y apellido</label>
+                    <input type="text" class="input-name" id="userName" autocomplete="off">
+                </div>
 
-            <div class="terminos">
+                <div class="flexbox">
+                    <div class="exp-date">
+                        <label for="month">Fecha de expiración</label>
+                        <div class="flexbox">
+                            <div class="select-group">
+                                <select name="month" id="month">
+                                    <option disabled selected>Mes</option>
+                                </select>
+                            </div>
+                            <div class="select-group">
+                                <select name="year" id="year">
+                                    <option disabled selected>Año</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <label for="input-code">Código de seguridad</label>
+                        <input type="text" id="input-code" maxlength="3">
+                    </div>
+                </div>
+
+                <div class="terminos">
                     <input type="checkbox" class="terminos">
-                    <p>Aceptar <a style="color:blue;" href="#"></a> Términos y Condiciones</a></p>
-            </div>
+                    <p>Aceptar <a style="color:blue;" href="#"> Términos y Condiciones</a></p>
+                </div>
+
+
+            </form>
+            <div>
+                <button type="submit" class="btn-validar" id="validar">Validar</button>
+            </div><br />
 
             <div>
-            <button type="submit" class="btn-validar" id="validar">Validar</button>
-            </div><br/>
-            
-            <div>
-            <button type="submit" class="btn-home" id="home">Home</button>
+                <button type="submit" class="btn-home" id="home">Home</button>
             </div>
+        </div>
 
-        </form>
+    </div>
+    <div id="answerContainer" display="none">
 
     </div>
 
+    <script src="validator.js"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>
