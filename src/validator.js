@@ -1,26 +1,28 @@
 //  Función para validar el numero de tarjeta mediante el algoritmo de luhn
-function luhn(cardNumber) {
+const validator = {
+
+    isValid: function luhn(cardNumber) {
 
     let individualNumbers = [];
     let duplicateNumbers = [];
     let finalArry = undefined;
     let sum = 0;
-    let validCard = false;
+    // let validCard = false;
 
     //  A traves del método split dividimos el numero de la  tarjeta(que es un string) en una matriz de cadenas
     //  mediante la separación de la cadena en sub cadenas
 
-    let cardNumberSplit = cardNumber.split("");
+    let cardNumberSplit = cardNumber.split("").reverse();
     console.log(cardNumber);
     console.log(cardNumberSplit);
 
 
-    if (cardNumber.length === 16) {
+    if (cardNumber.length >=13 ) {
         // Creamos un for para poder iterar con cada una de las sub cadenas del array
-        for (var i = cardNumberSplit.length - 1; i >= 0; i--) {
-            if (i % 2 !== 0) {
+        for (var i = 0; i < cardNumberSplit.length; i++) {
+            if (i % 2 == 0) {
                 individualNumbers.push(cardNumberSplit[i]);// Usamos método push() para los elementos que cumplen con la condición  al final de un nuevo arreglo
-                console.log("numeros posiscion1" + individualNumbers);
+                console.log("numeros posición1" + individualNumbers);
             } else {
                 duplicateNumbers.push((cardNumberSplit[i] * 2).toString());
                 console.log("numeros posicion2 multiplicados" + duplicateNumbers)
@@ -39,18 +41,24 @@ function luhn(cardNumber) {
     for (var j = 0; j < finalArry.length; j++) {
         sum += parseInt(finalArry[j]);
     }
+    console.log(sum);
 
     if (sum % 10 === 0) {
-        validCard = true;
-    }
+        // validCard = true;
+        return true;  
+    } else {
+        return false;
+      }
 
-    console.log(sum);
-    return validCard;
-
-}
+    
+ 
+},
 
 //Enmascaramiento del numero de la tarjeta de credito
-function mask(cardNumber) {
-    let newNumber = cardNumber.replace(/\d(?=\d{4})/g, "*");
+  maskify: function mask(cardNumber) {
+    let newNumber = cardNumber.replace(/\d(?=\d{4})/g, "#");
     return newNumber;
 }
+};
+
+export default validator;

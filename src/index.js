@@ -1,7 +1,9 @@
-let result = document.getElementById("validar");
-result.addEventListener("click", isValid);
+import validator from './validator.js';
 
-function isValid() {
+let result = document.getElementById("validar");
+result.addEventListener("click", checkForm);
+
+function checkForm() {
     let userCard = document.getElementById("creditCard");//*
     let userName = document.getElementById("userName");//*
     let userCcv = document.getElementById("input-code");//*
@@ -9,8 +11,8 @@ function isValid() {
     if (userCard.value === "" || userName.value === "" || userCcv.value === "") {
         alert(" Todos los campos son obligatorios");
         return false;
-    } else if (userCard.value.length < 16) {
-        alert("Debes ingresar 16 dígitos en el campo número tarjeta de crédito");
+    } else if (userCard.value.length < 13) {
+        alert("Revisa número tarjeta de crédito");
         return false;
     } else if (!expressionNumber.test(userCard.value)) {
         alert("Debes digitar números en el campo Tarjeta de credito");
@@ -26,7 +28,7 @@ function isValid() {
         //   return false
     } else {
         //LLamado a la función que enmascara el numero de tarjeta
-        let maskNumber = mask(userCard.value);
+        let maskNumber = validator.maskify(userCard.value);
 
         let container = document.getElementById("contenedor");
         container.style.display = "none";
@@ -34,7 +36,7 @@ function isValid() {
         answer.style.display = "block";
 
         //LLamado a la funcion que valida mediante el algoritmo de Luhn el numero de tarjeta
-        let validNumber = luhn(userCard.value);
+        let validNumber = validator.isValid(userCard.value);
         let esValid = "";
         if (validNumber === true) {
             esValid = "VALIDA ¡Gracias por confiar en nosotros";
@@ -46,3 +48,5 @@ function isValid() {
     }
 
 }
+
+console.log(validator);
