@@ -11,7 +11,7 @@ function checkForm() {
     if (userCard.value === "" || userName.value === "" || userCcv.value === "") {
         alert(" Todos los campos son obligatorios");
         return false;
-    } else if (userCard.value.length < 13) {
+    } else if (userCard.value.length < 13 ) {
         alert("Revisa número tarjeta de crédito");
         return false;
     } else if (!expressionNumber.test(userCard.value)) {
