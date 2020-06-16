@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
-
+    <link rel="icon" type="image/png" href="images/icon.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="styleform.css">
 
     <title>Form</title>
@@ -14,16 +15,16 @@
 <body>
     <div id="menu">
         <nav>
-            <a href="index.html"><img src="images/logo.jpg"></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Clases</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
+            <img src="images/logo.jpg"> 
+             <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#membresias">Membresias</a></li>
+              <li><a href="#">Clases</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+             </ul>
+         </nav> 
+       </div>
 
 
     <div class="contenedor" id="contenedor" display="block">
@@ -65,15 +66,15 @@
                     </div>
 
                     <div class="code">
-                        <label for="input-code">Código de seguridad</label>
+                        <label for="input-code">CVV</label>
                         <input type="text" id="input-code" maxlength="3">
                     </div>
                 </div>
 
-                <div class="terminos">
+                <!-- <div class="terminos">
                     <input type="checkbox" class="terminos">
                     <p>Aceptar <a style="color:blue;" href="#"> Términos y Condiciones</a></p>
-                </div>
+                </div> -->
 
 
             </form>
@@ -81,15 +82,16 @@
                 <button type="submit" class="btn-validar" id="validar">Validar</button>
             </div><br />
 
-            <div>
+            <!-- <div>
                 <button type="submit" class="btn-home" id="home">Home</button>
-            </div>
+            </div> -->
         </div>
 
     </div>
     <div id="answerContainer" display="none">
 
     </div>
+    
 
     <!-- <script src="validator.js"></script> -->
     <script src="index.js" type = "module"></script>
