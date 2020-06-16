@@ -136,12 +136,13 @@ body {
 
 #answerContainer {
     background: rgba(214, 210, 210, 0.932);
-    margin : 120px;
-    height: 200px;
+    margin : 140px;
+    height: 350px;
     width : 500px;
     border-radius: 5px;
     position: relative;
     display: none;
     padding: 50px;
     text-align: center;
+    color:rgb(82, 80, 80);
 }

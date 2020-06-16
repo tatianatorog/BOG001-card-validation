@@ -1,5 +1,27 @@
 import validator from './validator.js';
 
+
+for (let i= 1; i<=12; i++){
+    let monthOption = document.createElement('option') 
+    monthOption.value= i;
+    monthOption.innerText= i;
+    let month = document.getElementById("month");
+    month.appendChild(monthOption)
+
+}
+
+const yearActual =new Date().getFullYear();
+for(let i= yearActual; i<= yearActual +10; i++){
+    let yearOption = document.createElement('option') 
+    yearOption.value= i;
+    yearOption.innerText= i;
+    let year = document.getElementById("year");
+    year.appendChild(yearOption);
+}
+
+
+
+
 let result = document.getElementById("validar");
 result.addEventListener("click", checkForm);
 
@@ -39,7 +61,7 @@ function checkForm() {
         let validNumber = validator.isValid(userCard.value);
         let esValid = "";
         if (validNumber === true) {
-            esValid = "VALIDA ¡Gracias por confiar en nosotros";
+            esValid = "VALIDA !Gracias por confiar en nosotros¡";
         } else {
             esValid = "INVALIDA  ¡Intentalo de nuevo!";
         }
