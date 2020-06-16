@@ -17,11 +17,11 @@ const validator = {
     // console.log(cardNumberSplit);
 
 
-    if (cardNumber.length >=13 ) {
+    // if (cardNumber.length >=13 ) {
         // Creamos un for para poder iterar con cada una de las sub cadenas del array
         for ( let i = 0; i < cardNumberSplit.length; i++) {
             if (i % 2 == 0) {
-                console.log(i);
+                // console.log(i);
                 individualNumbers.push(cardNumberSplit[i]);// Usamos método push() para los elementos que cumplen con la condición  al final de un nuevo arreglo
                 
             } else {
@@ -30,7 +30,7 @@ const validator = {
             }
         }
 
-    }
+    // }
     // El método join nos permite pasar un string a un array  y luego aplicamos el método split de nuevo 
     //De esta manera cada numero es un solo dígito y se convierte en array otra vez
 
