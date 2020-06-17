@@ -1,5 +1,6 @@
 # Tarjeta de crédito válida
- Este proyecto fue creado por DANIELA, TATIANA, NATALIA
+Este proyecto es la página web del gimanasio Fit lab, donde la comunidad de Laboratoria puede adquirir su membresia.
+ 
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
@@ -13,28 +14,33 @@
 
 ## 1. Preámbulo
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
+Este proyecto esta pensado para la comunidad de laboratoria que deseen mejorar su estado físico e implementar un cambio en su rutina diaria;facilitando su adquisicion por medio del aplicativo de validación de tarjeta de crédito, al momento de que el usuario desee adquirir un plan de membresía.
 
-Pasos del algoritmo:
-- Obtenemos la reversa del número a verificar (que solamente contiene dígitos [0-9])
-- A todos los números que ocupan una posición par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado
-- El número a verificar será válido si la suma de sus dígitos finales es un múltiplo de 10.
+## 2. Investigacion UX
 
-## 2. Resumen del proyecto
+-Los usarios de este proyecto desean adquirir por medio de membresias,
+planes de variadas.
+-Este proyecto esta destinado en ayudar a los usuarios a adquirir de manera
+practica y sencilla su plan segun su necesidad.
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
+Pertenecer al  gimnasio fit-lab tendrá un gran impacto en la salud del equipo y las estudiantes de laboratoria esperamos que con la adquisición de la membresía nuestros usuarios puedan mejorar su aprendizaje , reducir el estrés ,  aumentar su autoestima, reducir el riesgo de enfermedades cardiovasculares, fortalecer sus huesos y músculos.
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
+FALTAN FOTOS DEL PROTOTIPO INICIAL  
+
+FEEDBACK
+
+Durante el feedback de nuestra página home  nos sugieren:
+-Cambiar el tamaño del logotipo.
+-Cambiar el color de la letra de la barra menú   por un color mas visible 
+-poner un fondo a la segunda sección de membresías.
+
+Con respecto al  formulario.
+Ajustar el tamaño de los cuadros de ingreso de datos.
+Poner una imagen de fondo 
+Mantener la barra de menú de la página web
+
+
+FALTAN FOTOS DEL PROTOTIPO FINAL 
 
 ## 3. Objetivos de aprendizaje
 
