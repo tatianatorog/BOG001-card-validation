@@ -83,8 +83,8 @@ nav{
 }
 
 .contenedor {
-  margin: 270px;
-  margin-bottom: 10px;
+  margin: 200px;
+  margin-bottom: 50px;
 }
 .contenedor  h1{
   text-transform: uppercase;
@@ -100,7 +100,7 @@ nav{
 .membresias{
   display: flex;
   justify-content:space-around;
-  padding:50px 140px 100px 140px;
+  padding: 50px 100px 100px 140px;
   margin-top: 200px;
 }
 .membresia{
