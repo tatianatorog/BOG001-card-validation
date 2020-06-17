@@ -25,8 +25,8 @@ const validator = {
                 individualNumbers.push(cardNumberSplit[i]);// Usamos método push() para los elementos que cumplen con la condición  al final de un nuevo arreglo
                 
             } else {
-                duplicateNumbers.push((cardNumberSplit[i] * 2).toString());
-                // console.log("numeros posicion2 multiplicados" + duplicateNumbers)
+                duplicateNumbers.push((cardNumberSplit[i] * 2));
+                console.log("numeros posicion2 multiplicados" + duplicateNumbers)
             }
         }
 
@@ -35,15 +35,14 @@ const validator = {
     //De esta manera cada numero es un solo dígito y se convierte en array otra vez
 
     duplicateNumbers = duplicateNumbers.join("").split("");
-    // console.log("join" + duplicateNumbers.join(""))
+    console.log("join" + duplicateNumbers.join(""))
     // console.log("numeros convertidos en array " + duplicateNumbers)
     finalArry = duplicateNumbers.concat(individualNumbers);
-    // console.log("array para sumar" + finalArry)
-    for (var j = 0; j < finalArry.length; j++) {
+    console.log("array para sumar" + finalArry)
+    for (let j = 0; j <= finalArry.length-1; j++) {
         sum += parseInt(finalArry[j]);
         console.log(sum);
     }
-    
 
     if (sum % 10 === 0) {
         // validCard = true;
@@ -56,7 +55,7 @@ const validator = {
  
 },
 
-//Enmascaramiento del numero de la tarjeta de credito
+//Enmascaramiento del numero de la tarjeta de crédito
   maskify: function mask(cardNumber) {
     let newNumber = cardNumber.replace(/\d(?=\d{4})/g, "#");
     return newNumber;
