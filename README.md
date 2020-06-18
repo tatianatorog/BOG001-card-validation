@@ -29,22 +29,22 @@ Para la implementación de este aplicativo se elaboraron prototipos en diferente
 
 ### Primeros prototipos
 
-<img src="https://user-images.githubusercontent.com/56327014/85023152-f92dc500-b139-11ea-8129-e84c28bfc9da.jpeg" alt="sketch 1" width="300" />
-<img src="https://user-images.githubusercontent.com/56327014/85023178-02b72d00-b13a-11ea-9ca4-4125349c4d8e.jpeg" alt="sketch 2" width="300" />
-<img src="https://user-images.githubusercontent.com/56327014/85023200-0a76d180-b13a-11ea-8818-8bfb998293c4.jpeg" alt="sketch 3" width="300" />
+<img src="/skeches-prototipo/sk1.jpeg" alt="sketch 1" width="300" />
+<img src="/skeches-prototipo/sk2.jpeg" alt="sketch 2" width="300" />
+<img src="/skeches-prototipo/sk3.jpeg" alt="sketch 3" width="300" />
 
 ### Prototipo pagina web
 
-<img src="https://user-images.githubusercontent.com/56327014/85023608-9557cc00-b13a-11ea-8007-9d5d4a14c78b.jpeg" alt="prot pagina" width="300" />
-<img src="https://user-images.githubusercontent.com/56327014/85023602-90931800-b13a-11ea-8071-c85ae1b223cb.jpeg" alt="prot formulario" width="300" />
+<img src="/prototipo-pagina-web/prot-home.jpeg" alt="prot home" width="300" />
+<img src="/prototipo-pagina-web/prot-form.jpeg" alt="prot form" width="300" />
 
 ### Imagen final
 
-<img src="https://user-images.githubusercontent.com/56327014/85023768-cafcb500-b13a-11ea-9cb9-fab7ae338fae.png" alt="home section 1" width="300" />
-<img src="https://user-images.githubusercontent.com/56327014/85023793-d18b2c80-b13a-11ea-92df-f0267324952d.png" alt="home section 2" width="300" />
-<img src="https://user-images.githubusercontent.com/56327014/85023814-d7810d80-b13a-11ea-9ca4-0836ca75befb.png" alt="data form" width="300" />
-<img src="https://user-images.githubusercontent.com/56327014/85023843-e071df00-b13a-11ea-9311-fa890075e0fe.png" alt="card invalid" width="300" />
-<img src="https://user-images.githubusercontent.com/56327014/85023875-e962b080-b13a-11ea-8463-afc7cfa66e23.png" alt="card valid" width="300" />
+<img src="/imagen-final/home-section1.png" alt="home section 1" width="300" />
+<img src="/imagen-final/home-section2.png" alt="home section 2" width="300" />
+<img src="/imagen-final/data-form.png" alt="data form" width="300" />
+<img src="/imagen-final/card-invalid.png" alt="card invalid" width="300" />
+<img src="/imagen-final/card-valid.png" alt="card valid" width="300" />
 
 ### Feedback
 
