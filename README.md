@@ -43,8 +43,8 @@ Para la implementación de este aplicativo se elaboraron prototipos en diferente
 <img src="https://user-images.githubusercontent.com/56327014/85152821-12f30900-b21b-11ea-8904-0b8b92e65dcb.png" alt="home section 1" width="400" />
 <img src="https://user-images.githubusercontent.com/56327014/85152840-18e8ea00-b21b-11ea-893f-5dff3d568190.png" alt="home section 2" width="400" />
 <img src="https://user-images.githubusercontent.com/56327014/85152873-21d9bb80-b21b-11ea-9933-c2d8a2e316a9.png" alt="data form" width="400" />
-<img src="https://user-images.githubusercontent.com/56327014/85152965-3e75f380-b21b-11ea-82fe-c63cd9b9a99f.png" alt="card invalid" width="400" />
-<img src="https://user-images.githubusercontent.com/56327014/85153002-459d0180-b21b-11ea-9415-ad2bcbffb2af.png" alt="card valid" width="400" />
+<img src="https://user-images.githubusercontent.com/56327014/85165460-7f760400-b22b-11ea-80d1-fc01d948f882.png" alt="card invalid" width="400" />
+<img src="https://user-images.githubusercontent.com/56327014/85165487-89980280-b22b-11ea-8bf5-b1696de21f39.png" alt="card valid" width="400" />
 
 ### Feedback
 
