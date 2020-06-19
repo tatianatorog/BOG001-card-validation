@@ -29,22 +29,22 @@ Para la implementación de este aplicativo se elaboraron prototipos en diferente
 
 ### Primeros prototipos
 
-<img src="/skeches-prototipo/sk1.jpeg" alt="sketch 1" width="200" />
-<img src="/skeches-prototipo/sk2.jpeg" alt="sketch 2" width="200" />
-<img src="/skeches-prototipo/sk3.jpeg" alt="sketch 3" width="200" />
+<img src="https://user-images.githubusercontent.com/56327014/85152552-c1e31500-b21a-11ea-9d91-0ea008244a17.jpeg" alt="sketch 1" width="300" />
+<img src="https://user-images.githubusercontent.com/56327014/85152562-c60f3280-b21a-11ea-9fde-4362d9a50613.jpeg" alt="sketch 2" width="300" />
+<img src="https://user-images.githubusercontent.com/56327014/85152567-c8718c80-b21a-11ea-8d77-2338b095da3c.jpeg" alt="sketch 3" width="300" />
 
 ### Prototipo pagina web
 
-<img src="/prototipo-pagina-web/prot-home.jpeg" alt="prot home" width="300" />
-<img src="/prototipo-pagina-web/prot-form.jpeg" alt="prot form" width="300" />
+<img src="https://user-images.githubusercontent.com/56327014/85152695-ef2fc300-b21a-11ea-8587-221783e1e12a.jpeg" alt="prot home" width="400" />
+<img src="https://user-images.githubusercontent.com/56327014/85152717-f5be3a80-b21a-11ea-963c-d9fe8cc434c2.jpeg" alt="prot form" width="400" />
 
 ### Imagen final
 
-<img src="/imagen-final/home-section1.png" alt="home section 1" width="300" />
-<img src="/imagen-final/home-section2.png" alt="home section 2" width="300" />
-<img src="/imagen-final/data-form.png" alt="data form" width="300" />
-<img src="/imagen-final/card-invalid.png" alt="card invalid" width="300" />
-<img src="/imagen-final/card-valid.png" alt="card valid" width="300" />
+<img src="https://user-images.githubusercontent.com/56327014/85152821-12f30900-b21b-11ea-8904-0b8b92e65dcb.png" alt="home section 1" width="400" />
+<img src="https://user-images.githubusercontent.com/56327014/85152840-18e8ea00-b21b-11ea-893f-5dff3d568190.png" alt="home section 2" width="400" />
+<img src="https://user-images.githubusercontent.com/56327014/85152873-21d9bb80-b21b-11ea-9933-c2d8a2e316a9.png" alt="data form" width="400" />
+<img src="https://user-images.githubusercontent.com/56327014/85152965-3e75f380-b21b-11ea-82fe-c63cd9b9a99f.png" alt="card invalid" width="400" />
+<img src="https://user-images.githubusercontent.com/56327014/85153002-459d0180-b21b-11ea-9415-ad2bcbffb2af.png" alt="card valid" width="400" />
 
 ### Feedback
 
