@@ -29,9 +29,9 @@ Para la implementación de este aplicativo se elaboraron prototipos en diferente
 
 ### Primeros prototipos
 
-<img src="/skeches-prototipo/sk1.jpeg" alt="sketch 1" width="300" />
-<img src="/skeches-prototipo/sk2.jpeg" alt="sketch 2" width="300" />
-<img src="/skeches-prototipo/sk3.jpeg" alt="sketch 3" width="300" />
+<img src="/skeches-prototipo/sk1.jpeg" alt="sketch 1" width="200" />
+<img src="/skeches-prototipo/sk2.jpeg" alt="sketch 2" width="200" />
+<img src="/skeches-prototipo/sk3.jpeg" alt="sketch 3" width="200" />
 
 ### Prototipo pagina web
 
