@@ -26,43 +26,16 @@
     </div>
 
     <div class="contenedor" id="contenedor" display="block">
-      <section class="card" id="card">
-        <div class="img-card">
-          <img src="images/card.png" alt="Credit Card" />
-        </div>
-      </section>
-
-      <div id="userData">
-        <form action="" class="form-card" id="form-card">
-          <div class="data">
-            <label for="input-number">Número de tarjeta</label>
-            <input
-              type="text"
-              class="input-number"
-              id="creditCard"
-              maxlength="16"
-              autocomplete="off"
-            />
-          </div>
-
-          <div class="datos">
-            <label for="input-name">Nombre y apellido</label>
-            <input
-              type="text"
-              class="input-name"
-              id="userName"
-              autocomplete="off"
-            />
-          </div>
-
-          <div class="flexbox">
-            <div class="exp-date">
-              <label for="month">Fecha de expiración</label>
-              <div class="flexbox">
-                <div class="select-group">
-                  <select name="month" id="month">
-                    <option disabled selected>Mes</option>
-                  </select>
+        <section class="card" id="card">
+            <div class="img-card">
+                <img src="images/card.png" alt="Credit Card">
+            </div>
+        </section>
+        <div id="userData">
+            <form action="" class="form-card" id="form-card">
+                <div class="data">
+                    <label for="input-number">Número de tarjeta</label>
+                    <input type="text" class="input-number" id="creditCard" maxlength="16" autocomplete="off">
                 </div>
                 <div class="select-group">
                   <select name="year" id="year">
@@ -72,31 +45,41 @@
               </div>
             </div>
 
-            <div class="code">
-              <label for="input-code">CVV</label>
-              <input type="text" id="input-code" maxlength="3" />
-            </div>
-          </div>
+                <div class="flexbox">
+                    <div class="exp-date">
+                        <label for="month">Fecha de expiración</label>
+                        <div class="flexbox">
+                            <div class="select-group">
+                                <select name="month" id="month">
+                                    <option disabled selected>Mes</option>
+                                </select>
+                            </div>
+                            <div class="select-group">
+                                <select name="year" id="year">
+                                    <option disabled selected>Año</option>
+                                </select>
 
-          <!-- <div class="terminos">
-                    <input type="checkbox" class="terminos">
-                    <p>Aceptar <a style="color:blue;" href="#"> Términos y Condiciones</a></p>
-                </div> -->
-        </form>
-        <div>
-          <button type="submit" class="btn-validar" id="validar">
-            Validar
-          </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <label for="input-code">CVV</label>
+                        <input type="text" id="input-code" maxlength="3">
+                    </div>
+                </div>
+            </form>
+            <div>
+            <button type="submit" class="btn-validar" id="validar">Validar</button>
+            </div><br />
+
+            
         </div>
-        <br />
-
-        <!-- <div>
-                <button type="submit" class="btn-home" id="home">Home</button>
-            </div> -->
-      </div>
     </div>
-    <div id="answerContainer" display="none"></div>
-
+    <div id ="containerBig">
+    <div id="answerContainer" display="none">
+    </div>
+    </div>
     <!-- <script src="validator.js"></script> -->
     <script src="index.js" type="module"></script>
   </body>

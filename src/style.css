@@ -121,7 +121,7 @@ nav{
   font-size: 2em;
 }
 .btn{
-  background:black;
+  background: rgb(14, 14, 14);
   cursor:pointer;
   padding:5px 20px;
   color:rgb(241, 239, 242);
@@ -140,7 +140,7 @@ nav{
 
 }
  #contacto{
-   background-color: black;
+   background-color: rgb(14, 14, 14);
    color:rgb(241, 239, 242);
    height: 75px;
    text-align: center;
@@ -178,12 +178,3 @@ nav{
  }
 
 
-  @media only screen and (max-width: 700px) only screen and (max-device-width: 700px) {
-
-    #rt-main, #rt-header, .rt-container, .rt-container .rt-grid-8, .rt-container .rt-grid-8,.rt-container .rt-grid-9, .footer-container, .rt-container .rt-grid-3, .rt-container .rt-grid-6 {width: 99%;}
-    
-     body{min-width: 100%;}
-    
-     .rt-container .rt-grid-4 {display: none;}
-    
-    }
