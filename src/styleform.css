@@ -134,15 +134,25 @@ body {
     width: 300px;
 }
 
+#containerBig {
+    padding: 70px;
+}
+
+#answerContainer h2{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
 #answerContainer {
     background: rgba(214, 210, 210, 0.932);
     margin : 140px;
-    height: 350px;
-    width : 500px;
-    border-radius: 5px;
+    height: 360px;
+    width : 460px;
+    border-radius: 40px;
     position: relative;
     display: none;
-    padding: 50px;
-    text-align: center;
+    padding: 40px;
+    text-align: justify;
     color:rgb(82, 80, 80);
+
 }

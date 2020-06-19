@@ -42,9 +42,9 @@ describe('validator', () => {
       expect(maskifycard).toBe("1")
     });
 
-    // it('Debería retornar "######orld" para "helloworld"', () => {
-    //   const maskifycard =validator.maskify("helloworld");
-    //   expect(maskifycard).toBe("######orld")
-    // });
+    it('Debería retornar "######orld" para "helloworld"', () => {
+      const maskifycard =validator.maskify("helloworld");
+      expect(maskifycard).toBe("######orld")
+    });
   });
 

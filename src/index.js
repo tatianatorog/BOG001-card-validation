@@ -25,7 +25,7 @@ for(let i= yearActual; i<= yearActual +10; i++){
 let result = document.getElementById("validar");
 result.addEventListener("click", checkForm);
 
-function checkForm() {
+function checkForm () {
     let userCard = document.getElementById("creditCard");//*
     let userName = document.getElementById("userName");//*
     let userCcv = document.getElementById("input-code");//*
@@ -61,9 +61,10 @@ function checkForm() {
         let validNumber = validator.isValid(userCard.value);
         let esValid = "";
         if (validNumber === true) {
-            esValid = "VALIDA !Gracias por confiar en nosotros¡";
+            
+            esValid = `VALIDA<br><img src=images/check1.png><br>!Gracias por confiar en nosotros¡`;
         } else {
-            esValid = "INVALIDA  ¡Intentalo de nuevo!";
+            esValid = `INVALIDA<br><img src= images/wrong.png><br>¡Intentalo de nuevo!`;
         }
         //Imprime respuesta del servicio de validación
         answer.innerHTML = "<h2>" + userName.value.toUpperCase() + " TU TARJETA DE CRÉDITO " + " " + "" + maskNumber + " " + "<br>" + "ES" + " " + esValid;
