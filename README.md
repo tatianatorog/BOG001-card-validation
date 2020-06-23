@@ -98,3 +98,4 @@ Respecto al formulario:
 * [ ] Organizar y dividir el código en módulos (Modularización).
 * [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+nn
