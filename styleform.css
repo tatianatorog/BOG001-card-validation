@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+    background: url("images/coverform.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 50%;
+    height: 50%;
+    }
+
+.contenedor {
+    width: 80%;
+    max-width: 1000px;
+    padding: 40px 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor .card .img-card {
+    width: 3px;   
+    border-radius: 20px;
+   
+}
+
+.img-card img{
+    margin-top: -100px;
+    margin-left: 115px ;
+}
+
+#userData {
+	background: rgba(214, 210, 210, 0.932);
+	width: 100%;
+	max-width: 500px;
+	padding: 50px 70px 30px 70px;
+	border-radius: 20px;
+	position: relative;
+    top: -40px;
+    margin-left: 80px;
+}
+
+.form-card .flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-card .exp-date {
+    width: 100%;
+}
+
+.form-card .code {
+    min-width: 100px;
+}
+
+.form-card .select-group {
+    width: 100%;
+    margin-right: 15px;
+}
+
+.form-card label {
+    font-family: sans-serif;
+	display: block;
+	color: rgb(82, 80, 80);
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.form-card input {
+    font-family: sans-serif;
+    border: 3px solid #CED6E0;
+	font-size: 18px;
+	height: 50px;
+	width: 100%;
+	padding: 5px 15px;
+	border-radius: 7px;
+}
+
+.form-card select {
+    border: 3px solid #CED6E0;
+	font-size: 14px;
+	height: 50px;
+	width: 100%;
+	padding: 5px 15px;
+	border-radius: 7px;
+}
+
+.form-card input {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.btn-validar {
+	border: 3px solid #CED6E0;
+	font-size: 20px;
+	height: 50px;
+	width: 100%;
+	/* padding: 5px 15px; */
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-validar:hover {
+    background: yellow;
+}
+
+.btn-home {
+    border: 3px solid #CED6E0;
+	font-size: 20px;
+	height: 50px;
+	width: 100%;
+	padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-home:hover {
+    background: yellow;
+}
+
+.terminos {
+    width: 20px;
+    height: 20px;
+}
+
+.terminos p {
+    width: 300px;
+}
+
+#containerBig {
+    padding: 70px;
+}
+
+#answerContainer h2{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+#answerContainer {
+    background: rgba(214, 210, 210, 0.932);
+    margin : 140px;
+    height: 360px;
+    width : 460px;
+    border-radius: 40px;
+    position: relative;
+    display: none;
+    padding: 40px;
+    text-align: justify;
+    color:rgb(82, 80, 80);
+
+}
