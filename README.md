@@ -81,7 +81,7 @@ Respecto al formulario:
 * [ x] Uso de condicionales.
 * [ x] Uso de bucles.
 * [ x] Uso de funciones.
-* [ x] Datos atómicos y estructurados.
+* [ ] Datos atómicos y estructurados.
 * [ x] Utilizar ES Modules (import | export).
 
 ### Testing
@@ -96,6 +96,6 @@ Respecto al formulario:
 ### Buenas prácticas de desarrollo
 
 * [ x] Organizar y dividir el código en módulos (Modularización).
-* [ x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [ x] Uso de linter para seguir buenas prácticas (ESLINT).
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 nn
