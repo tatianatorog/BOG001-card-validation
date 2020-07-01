@@ -13,15 +13,12 @@ const validator = {
     //  mediante la separación de la cadena en sub cadenas
 
     let cardNumberSplit = cardNumber.split("").reverse();
-    // console.log(cardNumber);
-    // console.log(cardNumberSplit);
+    
 
-
-    // if (cardNumber.length >=13 ) {
         // Creamos un for para poder iterar con cada una de las sub cadenas del array
         for ( let i = 0; i < cardNumberSplit.length; i++) {
             if (i % 2 == 0) {
-                // console.log(i);
+                
                 individualNumbers.push(cardNumberSplit[i]);// Usamos método push() para los elementos que cumplen con la condición  al final de un nuevo arreglo
                 
             } else {
@@ -36,7 +33,7 @@ const validator = {
 
     duplicateNumbers = duplicateNumbers.join("").split("");
     console.log("join" + duplicateNumbers.join(""))
-    // console.log("numeros convertidos en array " + duplicateNumbers)
+   
     finalArry = duplicateNumbers.concat(individualNumbers);
     console.log("array para sumar" + finalArry)
     for (let j = 0; j <= finalArry.length-1; j++) {
