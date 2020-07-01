@@ -7,7 +7,7 @@ const validator = {
     let duplicateNumbers = [];
     let finalArry = undefined;
     let sum = 0;
-    // let validCard = false;
+    
 
     //  A traves del método split dividimos el numero de la  tarjeta(que es un string) en una matriz de cadenas
     //  mediante la separación de la cadena en sub cadenas
